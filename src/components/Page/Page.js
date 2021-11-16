@@ -4,6 +4,7 @@ import Content from './Content.js';
 import Entry from './Entry.js';
 
 function Page() {
+    console.log('page');
     return (
         <BrowserRouter>
           <Routes>
